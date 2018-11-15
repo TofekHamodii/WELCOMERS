@@ -1,10 +1,12 @@
-﻿const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('guildMemberAdd' , member => {
-var server = "511871944958803968"; 
-var channel = "511875595773149185";
-client.guilds.get(server).channels.get(channel).send("**Welcome To Neptune ,. :champagne_glass: **")
+const Discord = require('discord.js'),
+    bot = new Discord.Client({sisableEveryone: true})
+    console.log("muuuuuuuuute,");
+bot.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("511875595773149185");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`**Welcome, To Neptuune.**`), 4000)        
+}
 });
 
-client.login("NTA3OTc4Mjg4MjUwMDkzNTY4.DsyoZQ.VhSBHpcHJwS54_TWlHMrz6DxkkY"); 
+client.login(procces.env.BOT_TOKEN)
