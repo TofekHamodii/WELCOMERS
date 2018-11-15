@@ -9,4 +9,4 @@ setTimeout(() => mohamed.send(`**Welcome, To Neptuune.**`), 4000)
 }
 });
 
-client.login(procces.env.BOT_TOKEN)
+bot.login(procces.env.BOT_TOKEN)
