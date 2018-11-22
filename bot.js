@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
     bot = new Discord.Client({sisableEveryone: true})
     console.log("muuuuuuuuute,");
 bot.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("514113414528892949");
+const mohamed= member.guild.channels.get("515154174795579393");
 if(!mohamed) return;
 if(mohamed) {
 setTimeout(() => mohamed.send(`**Welcome, To Neptuune. :champagne_glass: **`), 4000)        
